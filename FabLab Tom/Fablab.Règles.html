@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Règles et sécurité - Créative Lab</title>
+    <link rel="stylesheet" href="Fablab.Règles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="accueil">
+                    <li>
+                        <a href="Fablab.Accueil.html"><img src="logo.pdf" alt="Logo de l'Accueil" class="logo"></a>
+                    </li>
+                </div>
+                <div class="Machines">
+                    <li>
+                        <a href="Fablab.Machines.html">Machines</a>
+                    </li>
+                </div>
+                <div class="Projets">
+                    <li>
+                        <a href="Fablab.Projets.html">Projets</a>
+                    </li>
+                </div>
+                <div class="Règles">
+                    <li>
+                        <a href="Fablab.Règles.html">Règles</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+<div class="fondRègles">
+    <div class="container">
+        <h1>Règles et sécurité - Créative Lab</h1>
+
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Est-ce que je peux laisser mes cheveux flotter librement pendant que j’utilise les machines ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Ah, non ! À moins que tu ne veuilles tester une nouvelle coupe de cheveux express avec une machine. Il est impératif d'attacher tes cheveux pour éviter qu’ils ne se retrouvent coincés dans une machine, ça pourrait être dangereux !</p>
+            </div>
+
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Je peux travailler avec mes manches longues, ça gêne pas, non ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Ah, les manches longues... parfaites pour se retrouver coincées dans une perceuse ou une scie. Retrousse-les pour éviter que tes manches ne se mêlent de ce qui ne les regarde pas !</p>
+            </div>
+
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Faut-il vraiment nettoyer les machines après utilisation ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Oui, et ce n’est pas juste une obsession du ménage. Les machines aiment aussi être bichonnées. Laisse-les propres et en parfait état pour les prochains utilisateurs... et pour éviter qu’elles ne te boude la prochaine fois !</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Puis-je emprunter un tournevis ou une pince à la maison, juste pour une nuit ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Nope, désolé ! Les outils du Créative Lab ne sont pas des compagnons de nuit. Ils doivent rester dans le Lab pour que tout le monde puisse les utiliser. Promis, ils ne t’en voudront pas !</p>
+            </div>
+
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Est-ce que je peux réarranger un peu les meubles du Créative Lab pour mon projet ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Non, ce n’est pas "Les Sims". L’organisation du Lab est calculée pour garantir sécurité et efficacité. Si tu changes tout, ce sera le chaos (et potentiellement dangereux) !</p>
+            </div>
+
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Si une machine fait un bruit bizarre, je peux tenter de la réparer ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>À moins que tu ne sois un expert en maintenance de machines industrielles... non. Si quelque chose cloche, signale-le à un responsable. Mieux vaut éviter que ça ne se transforme en machine à bruit permanent.</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Puis-je manger ou boire près des machines ?
+                </span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Boire à côté d’une imprimante 3D ? Pas une bonne idée. Manger en découpant du plastique ? Encore pire. La nourriture reste en dehors du Lab.
+                </p>
+            </div>
+
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Est-ce que je peux utiliser plusieurs machines en même temps ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>En mode super multitâche ? Non, ce n’est pas recommandé. Utilise une machine à la fois pour rester concentré et éviter les accidents. Les machines n’aiment pas partager ton attention !</p>
+            </div>
+
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Si je ne connais pas une machine, je peux improviser ?</span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Non, ce n’est pas un épisode de "MacGyver". Si tu n’as pas été formé, demande de l’aide. Improviser avec une machine pourrait finir en scénario catastrophe.</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)">
+                <span>Est-ce que je peux porter des bijoux pendant que j’utilise les machines ?
+                </span>
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                <p>Non, à moins que tu ne veuilles tester la robustesse de tes bagues contre une découpeuse. Retire-les pour éviter tout risque d’accident.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.instagram.com/tom95_f/?next=%2F&hl=fr">Instagram : tom95_f</a>
+            <a href="https://www.gobelins.fr/" target="_blank"><img src="logo2.png" alt="Logo des Gobelins" class="logo2"></a>
+            <p>© 2024 Made by Tom Fernandez</p>
+        </div>
+    </footer>
+    <script src="Fablab.Règles.js"></script>
+</body>
+</html>

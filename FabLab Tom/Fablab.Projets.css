@@ -1,0 +1,123 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: #06007C;
+    font-family: monospace;
+}
+nav ul{
+    display: flex;
+    background-color: #06007C;
+}
+.accueil{
+    list-style-type: none;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.Machines{
+    padding: 1.5%;
+    list-style: none;
+    font-size: 120%;
+}
+.Projets{
+    padding: 1.5%;
+    list-style: none;
+    font-size: 120%;
+}
+.Règles{
+    padding: 1.5%;
+    list-style: none;
+    font-size: 120%;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover h3 {
+    background: rgba(0, 0, 0, 0.8);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo2{
+    width: 6.5%;
+    height: 7%;
+}
+nav ul li a:hover {
+    opacity: 70%;
+}
+.fondProjets{
+    background-color: #c1d2f8;
+    padding: 3%;
+}
+.projects-container{
+    justify-content: space-around;
+}
+footer {
+    background-color: #33333300;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    /* Style pour le contenu du footer */
+.footer-content {        
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espace entre les liens */
+    align-items: center;
+}
+    /* Style pour les liens */
+footer a {    
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+    /* Style pour le texte non cliquable */
+footer p {
+    margin: 0;
+    font-size: 90%;
+}

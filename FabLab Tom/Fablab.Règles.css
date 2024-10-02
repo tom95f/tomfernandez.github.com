@@ -1,0 +1,131 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: #06007C;
+    font-family: monospace;
+}
+nav ul{
+    display: flex;
+    background-color: #06007C;
+}
+.accueil{
+    list-style-type: none;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.Machines{
+    padding: 1.5%;
+    list-style: none;
+    font-size: 120%;
+}
+.Projets{
+    padding: 1.5%;
+    list-style: none;
+    font-size: 120%;
+}
+.Règles{
+    padding: 1.5%;
+    list-style: none;
+    font-size: 120%;
+}
+.container {
+    max-width: 20000px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3%;
+    background-color: #06007C;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #c1d2f8;
+    padding-bottom: 1.5%;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.question {
+    background-color: #c1d2f8;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    color: #06007C;
+    font-size: 120%;
+}
+
+.question:hover {
+    background-color: #c1d2f8;
+}
+
+.answer {
+    display: none;
+    padding: 15px;
+    background-color: #06007C;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #c1d2f8;
+    font-size: 120%;
+}
+
+.arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.question.active .arrow {
+    transform: rotate(90deg);
+}
+.fondRègles{
+    background-color: #c1d2f8;
+    padding: 3%;
+}
+footer {
+    background-color: #33333300;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    /* Style pour le contenu du footer */
+.footer-content {        
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espace entre les liens */
+    align-items: center;
+}
+    /* Style pour les liens */
+footer a {    
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+    /* Style pour le texte non cliquable */
+footer p {
+    margin: 0;
+    font-size: 90%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo2{
+    width: 6.5%;
+    height: 7%;
+}
+nav ul li a:hover {
+    opacity: 70%;
+}
